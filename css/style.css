@@ -1,0 +1,31 @@
+/* global ******************/
+body{
+    background:lavender;
+}
+/* header ***************/
+
+header
+{
+    background: darkblue;
+}
+.top_menu 
+{
+    /* background: darkblue; */
+    margin-top: 3em;
+    margin-left: 55em;
+}
+.top_menu span a
+{
+    text-decoration: none;
+    display: inline-block;
+    /* background: darkblue; */
+    color: lavender;
+    padding: 10px;
+    margin: 5px 8px;
+}
+.top_menu span a:hover
+{
+    background: lavender;
+    color: darkblue;  
+}
+
