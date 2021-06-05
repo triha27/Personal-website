@@ -1,31 +1,53 @@
+/********************
+CLORS TRYING TO USE
+8789C0 - BLUE BELL
+E8FCC2 - TEA GREEN
+111D4A - SPACE CADET
+049A8F - PERSIAN GREEN
+E1FAF9 - LIGHT CYAN
+**************************/
 /* global ******************/
+html
+{
+  box-sizing: border-box;
+}
+*, *:before, *:after
+{
+  box-sizing: inherit;
+}
 body{
-    background:lavender;
+    background:#E1FAF9;
 }
 /* header ***************/
 
 header
 {
-    background: darkblue;
+    background:#049A8F;
 }
 .top_menu 
 {
-    /* background: darkblue; */
-    margin-top: 3em;
-    margin-left: 55em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
-.top_menu span a
-{
-    text-decoration: none;
+.menu li {
+    list-style-type: none;
     display: inline-block;
-    /* background: darkblue; */
-    color: lavender;
-    padding: 10px;
-    margin: 5px 8px;
 }
-.top_menu span a:hover
+.menu li a{
+    text-decoration: none;
+    color: #E1FAF9;
+    padding: 30%;
+    margin: 1.5rem 1.2rem;
+}
+.menu li:last-of-type
 {
-    background: lavender;
-    color: darkblue;  
+    margin-right: 30px;
+}
+.menu li a:hover
+{
+    background: #E1FAF9;
+    color: #049A8F;  
 }
 
