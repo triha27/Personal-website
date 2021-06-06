@@ -22,6 +22,7 @@ body{
 
 header
 {
+    size: 100%;
     background:#049A8F;
 }
 .top_menu 
@@ -31,23 +32,31 @@ header
     align-items: center;
 
 }
-.menu li {
-    list-style-type: none;
-    display: inline-block;
+.menu ul{
+   list-style-type: none;
+   display: flex;
+   justify-content: end;
+   flex-shrink: initial;
 }
-.menu li a{
+.menu ul li a{
     text-decoration: none;
     color: #E1FAF9;
-    padding: 30%;
-    margin: 1.5rem 1.2rem;
+    /* display: inline-block; */
+    /* padding: 30% 10%; */
+    margin: 1.5em 1em;
 }
-.menu li:last-of-type
+.menu ul li a:hover
 {
-    margin-right: 30px;
+    /* background: #E1FAF9;
+    color: #049A8F;   */
+    /* text-decoration: dashed ; */
+    text-decoration: underline dotted #E1FAF9;
 }
-.menu li a:hover
+/******************** main-body***************/
+.sell-point
 {
-    background: #E1FAF9;
-    color: #049A8F;  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
 }
 
