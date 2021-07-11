@@ -1,0 +1,34 @@
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    /* background: #E1FAF9; */
+    background-color: white;
+    color: #111D4A;
+    font-family: 'Courier Prime', monospace;
+    /* padding: 2% 5%; */
+}
+
+.center-block {
+    margin: 2% 5%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 70px;
+    align-items: center;
+}
+
+.center-block h1 {
+    font-size: 250%;
+}
+
+.accent-color {
+    color: #8789C0;
+    ;
+}
+
+.design {
+    margin: 1% 5%;
+}

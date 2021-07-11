@@ -21,7 +21,8 @@ html {
 }
 
 body {
-    background: #E1FAF9;
+    /* background: #E1FAF9; */
+    background-color: white;
     /* font-family: all-round-gothic, sans-serif;
     font-weight: 400;
     font-style: normal; */
@@ -37,25 +38,32 @@ font-style: normal; */
 
 header {
     size: 100%;
-    background: #049A8F;
+    /* background: #049A8F; */
+    height: 132px;
+    /* width: 1170px; */
+    padding: 2% 5%;
+    background-color: white;
 }
 
 .top_menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 125%;
+    border-bottom: #111D4A dashed 6px;
 }
 
 .menu ul {
     list-style-type: none;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     flex-shrink: initial;
 }
 
 .menu ul li a {
     text-decoration: none;
-    color: #E1FAF9;
+    /* color: #E1FAF9; */
+    color: #111D4A;
     /* display: inline-block; */
     /* padding: 30% 10%; */
     margin: 1.5em 1em;
@@ -65,14 +73,17 @@ header {
     /* background: #E1FAF9;
     color: #049A8F;   */
     /* text-decoration: dashed ; */
-    text-decoration: underline dotted #E1FAF9;
+    color: #8789C0;
+    /* text-decoration: underline dotted #8789C0; */
 }
 
 
 /******************** main-body***************/
 
+
+/* 
 .sell-point {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
-}
+} */
