@@ -6,59 +6,73 @@ E8FCC2 - TEA GREEN
 049A8F - PERSIAN GREEN
 E1FAF9 - LIGHT CYAN
 **************************/
+
+
 /* global ******************/
-html
-{
-  box-sizing: border-box;
+
+html {
+    box-sizing: border-box;
 }
-*, *:before, *:after
-{
-  box-sizing: inherit;
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
-body{
-    background:#E1FAF9;
-    font-family: 'Raleway', sans-serif;
-    /*font-family: 'Courier Prime', monospace;*/
+
+body {
+    background: #E1FAF9;
+    /* font-family: all-round-gothic, sans-serif;
+    font-weight: 400;
+    font-style: normal; */
+    /* font-family: all-round-gothic,sans-serif;
+font-weight: 700;
+font-style: normal; */
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Courier Prime', monospace;
 }
+
+
 /* header ***************/
 
-header
-{
+header {
     size: 100%;
-    background:#049A8F;
+    background: #049A8F;
 }
-.top_menu 
-{
+
+.top_menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    flex-shrink: initial;
 }
-.menu ul{
-   list-style-type: none;
-   display: flex;
-   justify-content: end;
-   flex-shrink: initial;
-}
-.menu ul li a{
+
+.menu ul li a {
     text-decoration: none;
     color: #E1FAF9;
     /* display: inline-block; */
     /* padding: 30% 10%; */
     margin: 1.5em 1em;
 }
-.menu ul li a:hover
-{
+
+.menu ul li a:hover {
     /* background: #E1FAF9;
     color: #049A8F;   */
     /* text-decoration: dashed ; */
     text-decoration: underline dotted #E1FAF9;
 }
+
+
 /******************** main-body***************/
-.sell-point
-{
+
+.sell-point {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
 }
-
